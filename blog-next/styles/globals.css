@@ -1,0 +1,45 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+  body {
+    color: white;
+    background: black;
+  }
+}
+
+li {
+  list-style: none;
+  border: 1px solid black;
+}
+
+.like-section {
+  display: flex;
+  flex-direction: row;
+}
+
+.comment-section li {
+  border: none;
+  margin-left: 1rem;
+}
+
+.comment-section time{
+  font-weight: bold;
+}
